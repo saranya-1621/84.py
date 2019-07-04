@@ -1,2 +1,2 @@
-ak,as=input().split()
-print(ak[-int(as):])
+aak,aas=input().split()
+print(aak[-int(aas):])
