@@ -1,6 +1,6 @@
 an=int(input())
-las=list(map(int,input().split()))
-for i in range (len(las)):
-  if(las[i]>ls[i+1]):
-    break
-print(i)
+la=[int(i) for i in input().split()]
+for i in range(1,len(la)-1):
+    if(la[i-1]>la[i])or(la[i]>la[i+1]):
+        print(la.index(la[i]))
+        break
