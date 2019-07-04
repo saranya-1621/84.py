@@ -1,0 +1,5 @@
+xxx,xyy,xr=input().split()
+xxx=int(xxx)
+xyy=int(xyy)
+xr=int(xr)
+print((xxx*xyy)%xr)
